@@ -106,7 +106,8 @@ class Installer extends LibraryInstaller
         'yawik'        => 'YawikInstaller',
         'zend'         => 'ZendInstaller',
         'zikula'       => 'ZikulaInstaller',
-        'prestashop'   => 'PrestashopInstaller'
+        'prestashop'   => 'PrestashopInstaller',
+        'commonsense'   => 'CommonSense'
     );
 
     /**
