@@ -1,11 +1,11 @@
 <?php
 namespace Composer\Installers;
 
-class CommonSense extends BaseInstaller
+class CommonSenseInstaller extends BaseInstaller
 {
     protected $locations = array(
         // 'core'             => 'core/',
-        'csStyleGuidePatternLab-template'           => 'modules/{$name}/',
+        'pattern'           => 'modules/{$name}/',
         // 'theme'            => 'themes/{$name}/',
         // 'library'          => 'libraries/{$name}/',
         // 'profile'          => 'profiles/{$name}/',

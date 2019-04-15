@@ -107,7 +107,7 @@ class Installer extends LibraryInstaller
         'zend'         => 'ZendInstaller',
         'zikula'       => 'ZikulaInstaller',
         'prestashop'   => 'PrestashopInstaller',
-        'commonsense'   => 'CommonSense'
+        'commonsense'   => 'CommonSenseInstaller'
     );
 
     /**
@@ -141,7 +141,7 @@ class Installer extends LibraryInstaller
     {
         $type = $package->getType();
         $frameworkType = $this->findFrameworkType($type);
-
+        
         if ($frameworkType === false) {
             throw new \InvalidArgumentException(
                 'Sorry the package type of this package is not yet supported.'
