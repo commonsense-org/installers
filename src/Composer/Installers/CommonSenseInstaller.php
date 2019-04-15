@@ -5,7 +5,7 @@ class CommonSenseInstaller extends BaseInstaller
 {
     protected $locations = array(
         // 'core'             => 'core/',
-        'pattern'           => 'modules/{$name}/',
+        'pattern'           => 'libraries/{$name}/',
         // 'theme'            => 'themes/{$name}/',
         // 'library'          => 'libraries/{$name}/',
         // 'profile'          => 'profiles/{$name}/',
